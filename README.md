@@ -22,4 +22,4 @@ A very simple GPX/KML track file loader library. It's written in C.
 
 ##Links
 
-[Visit Page](http://shixf.com/libgps/)
+[Visit Page](http://shixf.com/wiki/projects/libgps)
