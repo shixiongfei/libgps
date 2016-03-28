@@ -17,9 +17,7 @@ A very simple GPX/KML track file loader library. It's written in C.
 		const char query_time[] = {"2009-10-17 18:37:28"};
 		struct GPSPoint* p = gps_match(gps_test, query_time);
 		if ( p ) {
-			printf("%s [At] (%lf, %lf, %lf)\n", query_time, p->x, p->y, p->z);		}		
-		gpsfile_free(gps_test);	}
-
-##Links
-
-[Visit Page](http://shixf.com/wiki/projects/libgps)
+			printf("%s [At] (%lf, %lf, %lf)\n", query_time, p->x, p->y, p->z);
+		}		
+		gpsfile_free(gps_test);
+	}
